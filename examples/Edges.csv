@@ -1,0 +1,253 @@
+Kelly McGillis,"{'roles': 'Charlie', 'type': 'acted_in'}",Top Gun
+Val Kilmer,"{'roles': 'Iceman', 'type': 'acted_in'}",Top Gun
+Keanu Reeves,"{'roles': 'Julian Mercer', 'type': 'acted_in'}",Something's Gotta Give
+Keanu Reeves,"{'roles': 'Shane Falco', 'type': 'acted_in'}",The Replacements
+Keanu Reeves,"{'roles': 'Johnny Mnemonic', 'type': 'acted_in'}",Johnny Mnemonic
+Keanu Reeves,"{'roles': 'Kevin Lomax', 'type': 'acted_in'}",The Devil's Advocate
+Keanu Reeves,"{'roles': 'Neo', 'type': 'acted_in'}",The Matrix Revolutions
+Keanu Reeves,"{'roles': 'Neo', 'type': 'acted_in'}",The Matrix Reloaded
+Keanu Reeves,"{'roles': 'Neo', 'type': 'acted_in'}",The Matrix
+Carrie-Anne Moss,"{'roles': 'Trinity', 'type': 'acted_in'}",The Matrix Revolutions
+Carrie-Anne Moss,"{'roles': 'Trinity', 'type': 'acted_in'}",The Matrix Reloaded
+Carrie-Anne Moss,"{'roles': 'Trinity', 'type': 'acted_in'}",The Matrix
+Laurence Fishburne,"{'roles': 'Morpheus', 'type': 'acted_in'}",The Matrix Revolutions
+Laurence Fishburne,"{'roles': 'Morpheus', 'type': 'acted_in'}",The Matrix Reloaded
+Laurence Fishburne,"{'roles': 'Morpheus', 'type': 'acted_in'}",The Matrix
+Hugo Weaving,"{'roles': 'Bill Smoke,Haskell Moore,Tadeusz Kesselring,Nurse Noakes,Boardman Mephi,Old Georgie', 'type': 'acted_in'}",Cloud Atlas
+Hugo Weaving,"{'roles': 'V', 'type': 'acted_in'}",V for Vendetta
+Hugo Weaving,"{'roles': 'Agent Smith', 'type': 'acted_in'}",The Matrix Revolutions
+Hugo Weaving,"{'roles': 'Agent Smith', 'type': 'acted_in'}",The Matrix Reloaded
+Hugo Weaving,"{'roles': 'Agent Smith', 'type': 'acted_in'}",The Matrix
+Lilly Wachowski,{'type': 'directed'},Speed Racer
+Lilly Wachowski,{'type': 'produced'},V for Vendetta
+Lilly Wachowski,{'type': 'wrote'},Speed Racer
+Lilly Wachowski,{'type': 'wrote'},V for Vendetta
+Lilly Wachowski,{'type': 'produced'},Ninja Assassin
+Lilly Wachowski,{'type': 'directed'},Cloud Atlas
+Lilly Wachowski,{'type': 'directed'},The Matrix Revolutions
+Lilly Wachowski,{'type': 'directed'},The Matrix Reloaded
+Lilly Wachowski,{'type': 'directed'},The Matrix
+Lana Wachowski,{'type': 'directed'},Speed Racer
+Lana Wachowski,{'type': 'produced'},V for Vendetta
+Lana Wachowski,{'type': 'wrote'},V for Vendetta
+Lana Wachowski,{'type': 'wrote'},Speed Racer
+Lana Wachowski,{'type': 'directed'},Cloud Atlas
+Lana Wachowski,{'type': 'produced'},Ninja Assassin
+Lana Wachowski,{'type': 'directed'},The Matrix Revolutions
+Lana Wachowski,{'type': 'directed'},The Matrix Reloaded
+Lana Wachowski,{'type': 'directed'},The Matrix
+Joel Silver,{'type': 'produced'},Speed Racer
+Joel Silver,{'type': 'produced'},V for Vendetta
+Joel Silver,{'type': 'produced'},Ninja Assassin
+Joel Silver,{'type': 'produced'},The Matrix Revolutions
+Joel Silver,{'type': 'produced'},The Matrix Reloaded
+Joel Silver,{'type': 'produced'},The Matrix
+Anthony Edwards,"{'roles': 'Goose', 'type': 'acted_in'}",Top Gun
+Tom Skerritt,"{'roles': 'Viper', 'type': 'acted_in'}",Top Gun
+Meg Ryan,"{'roles': 'Annie Reed', 'type': 'acted_in'}",Sleepless in Seattle
+Meg Ryan,"{'roles': 'Kathleen Kelly', 'type': 'acted_in'}",You've Got Mail
+Meg Ryan,"{'roles': 'Carole', 'type': 'acted_in'}",Top Gun
+Meg Ryan,"{'roles': 'Sally Albright', 'type': 'acted_in'}",When Harry Met Sally
+Meg Ryan,"{'roles': 'DeDe,Angelica Graynamore,Patricia Graynamore', 'type': 'acted_in'}",Joe Versus the Volcano
+Tony Scott,{'type': 'directed'},Top Gun
+Emil Eifrem,"{'roles': 'Emil', 'type': 'acted_in'}",The Matrix
+Charlize Theron,"{'roles': 'Tina', 'type': 'acted_in'}",That Thing You Do
+Charlize Theron,"{'roles': 'Mary Ann Lomax', 'type': 'acted_in'}",The Devil's Advocate
+Al Pacino,"{'roles': 'John Milton', 'type': 'acted_in'}",The Devil's Advocate
+Taylor Hackford,{'type': 'directed'},The Devil's Advocate
+Tom Cruise,"{'roles': 'Jerry Maguire', 'type': 'acted_in'}",Jerry Maguire
+Tom Cruise,"{'roles': 'Maverick', 'type': 'acted_in'}",Top Gun
+Tom Cruise,"{'roles': 'Lt. Daniel Kaffee', 'type': 'acted_in'}",A Few Good Men
+Jack Nicholson,"{'roles': 'Melvin Udall', 'type': 'acted_in'}",As Good as It Gets
+Jack Nicholson,"{'roles': 'Randle McMurphy', 'type': 'acted_in'}",One Flew Over the Cuckoo's Nest
+Jack Nicholson,"{'roles': 'Harry Sanborn', 'type': 'acted_in'}",Something's Gotta Give
+Jack Nicholson,"{'roles': 'Hoffa', 'type': 'acted_in'}",Hoffa
+Jack Nicholson,"{'roles': 'Col. Nathan R. Jessup', 'type': 'acted_in'}",A Few Good Men
+Demi Moore,"{'roles': 'Lt. Cdr. JoAnne Galloway', 'type': 'acted_in'}",A Few Good Men
+Kevin Bacon,"{'roles': 'Jack Swigert', 'type': 'acted_in'}",Apollo 13
+Kevin Bacon,"{'roles': 'Jack Brennan', 'type': 'acted_in'}",Frost/Nixon
+Kevin Bacon,"{'roles': 'Capt. Jack Ross', 'type': 'acted_in'}",A Few Good Men
+Kiefer Sutherland,"{'roles': 'Ace Merrill', 'type': 'acted_in'}",Stand By Me
+Kiefer Sutherland,"{'roles': 'Lt. Jonathan Kendrick', 'type': 'acted_in'}",A Few Good Men
+Noah Wyle,"{'roles': 'Cpl. Jeffrey Barnes', 'type': 'acted_in'}",A Few Good Men
+Cuba Gooding Jr.,"{'roles': 'Albert Lewis', 'type': 'acted_in'}",What Dreams May Come
+Cuba Gooding Jr.,"{'roles': 'Rod Tidwell', 'type': 'acted_in'}",Jerry Maguire
+Cuba Gooding Jr.,"{'roles': 'Frank Sachs', 'type': 'acted_in'}",As Good as It Gets
+Cuba Gooding Jr.,"{'roles': 'Cpl. Carl Hammaker', 'type': 'acted_in'}",A Few Good Men
+Kevin Pollak,"{'roles': 'Lt. Sam Weinberg', 'type': 'acted_in'}",A Few Good Men
+J.T. Walsh,"{'roles': 'Frank Fitzsimmons', 'type': 'acted_in'}",Hoffa
+J.T. Walsh,"{'roles': 'Lt. Col. Matthew Andrew Markinson', 'type': 'acted_in'}",A Few Good Men
+James Marshall,"{'roles': 'Pfc. Louden Downey', 'type': 'acted_in'}",A Few Good Men
+James Marshall,{'type': 'directed'},Ninja Assassin
+James Marshall,{'type': 'directed'},V for Vendetta
+Christopher Guest,"{'roles': 'Dr. Stone', 'type': 'acted_in'}",A Few Good Men
+Rob Reiner,{'type': 'directed'},Stand By Me
+Rob Reiner,{'type': 'directed'},When Harry Met Sally
+Rob Reiner,{'type': 'produced'},When Harry Met Sally
+Rob Reiner,{'type': 'directed'},A Few Good Men
+Aaron Sorkin,"{'roles': 'Man in Bar', 'type': 'acted_in'}",A Few Good Men
+Aaron Sorkin,{'type': 'wrote'},A Few Good Men
+Jim Cash,{'type': 'wrote'},Top Gun
+Renee Zellweger,"{'roles': 'Dorothy Boyd', 'type': 'acted_in'}",Jerry Maguire
+Kelly Preston,"{'roles': 'Avery Bishop', 'type': 'acted_in'}",Jerry Maguire
+Jerry O'Connell,"{'roles': 'Frank Cushman', 'type': 'acted_in'}",Jerry Maguire
+Jerry O'Connell,"{'roles': 'Vern Tessio', 'type': 'acted_in'}",Stand By Me
+Jay Mohr,"{'roles': 'Bob Sugar', 'type': 'acted_in'}",Jerry Maguire
+Bonnie Hunt,"{'roles': 'Jan Edgecomb', 'type': 'acted_in'}",The Green Mile
+Bonnie Hunt,"{'roles': 'Laurel Boyd', 'type': 'acted_in'}",Jerry Maguire
+Regina King,"{'roles': 'Marcee Tidwell', 'type': 'acted_in'}",Jerry Maguire
+Jonathan Lipnicki,"{'roles': 'Ray Boyd', 'type': 'acted_in'}",Jerry Maguire
+Cameron Crowe,{'type': 'produced'},Jerry Maguire
+Cameron Crowe,{'type': 'directed'},Jerry Maguire
+Cameron Crowe,{'type': 'wrote'},Jerry Maguire
+River Phoenix,"{'roles': 'Chris Chambers', 'type': 'acted_in'}",Stand By Me
+Corey Feldman,"{'roles': 'Teddy Duchamp', 'type': 'acted_in'}",Stand By Me
+Wil Wheaton,"{'roles': 'Gordie Lachance', 'type': 'acted_in'}",Stand By Me
+John Cusack,"{'roles': 'Denny Lachance', 'type': 'acted_in'}",Stand By Me
+Marshall Bell,"{'roles': 'Mr. Lachance', 'type': 'acted_in'}",Stand By Me
+Marshall Bell,"{'roles': 'Admiral', 'type': 'acted_in'}",RescueDawn
+Helen Hunt,"{'roles': 'Carol Connelly', 'type': 'acted_in'}",As Good as It Gets
+Helen Hunt,"{'roles': 'Kelly Frears', 'type': 'acted_in'}",Cast Away
+Helen Hunt,"{'roles': 'Dr. Jo Harding', 'type': 'acted_in'}",Twister
+Greg Kinnear,"{'roles': 'Frank Navasky', 'type': 'acted_in'}",You've Got Mail
+Greg Kinnear,"{'roles': 'Simon Bishop', 'type': 'acted_in'}",As Good as It Gets
+James L. Brooks,{'type': 'directed'},As Good as It Gets
+Annabella Sciorra,"{'roles': 'Annie Collins-Nielsen', 'type': 'acted_in'}",What Dreams May Come
+Max von Sydow,"{'roles': 'The Tracker', 'type': 'acted_in'}",What Dreams May Come
+Max von Sydow,"{'roles': 'Nels Gudmundsson', 'type': 'acted_in'}",Snow Falling on Cedars
+Werner Herzog,{'type': 'directed'},RescueDawn
+Werner Herzog,"{'roles': 'The Face', 'type': 'acted_in'}",What Dreams May Come
+Robin Williams,"{'roles': 'Chris Nielsen', 'type': 'acted_in'}",What Dreams May Come
+Robin Williams,"{'roles': 'Andrew Marin', 'type': 'acted_in'}",Bicentennial Man
+Robin Williams,"{'roles': 'Armand Goldman', 'type': 'acted_in'}",The Birdcage
+Vincent Ward,{'type': 'directed'},What Dreams May Come
+Ethan Hawke,"{'roles': 'Ishmael Chambers', 'type': 'acted_in'}",Snow Falling on Cedars
+Rick Yune,"{'roles': 'Takeshi', 'type': 'acted_in'}",Ninja Assassin
+Rick Yune,"{'roles': 'Kazuo Miyamoto', 'type': 'acted_in'}",Snow Falling on Cedars
+James Cromwell,"{'roles': 'Warden Hal Moores', 'type': 'acted_in'}",The Green Mile
+James Cromwell,"{'roles': 'Judge Fielding', 'type': 'acted_in'}",Snow Falling on Cedars
+Scott Hicks,{'type': 'directed'},Snow Falling on Cedars
+Parker Posey,"{'roles': 'Patricia Eden', 'type': 'acted_in'}",You've Got Mail
+Dave Chappelle,"{'roles': 'Kevin Jackson', 'type': 'acted_in'}",You've Got Mail
+Steve Zahn,"{'roles': 'Duane', 'type': 'acted_in'}",RescueDawn
+Steve Zahn,"{'roles': 'George Pappas', 'type': 'acted_in'}",You've Got Mail
+Tom Hanks,"{'roles': 'Jim Lovell', 'type': 'acted_in'}",Apollo 13
+Tom Hanks,"{'roles': 'Joe Fox', 'type': 'acted_in'}",You've Got Mail
+Tom Hanks,"{'roles': 'Jimmy Dugan', 'type': 'acted_in'}",A League of Their Own
+Tom Hanks,"{'roles': 'Joe Banks', 'type': 'acted_in'}",Joe Versus the Volcano
+Tom Hanks,"{'roles': 'Mr. White', 'type': 'acted_in'}",That Thing You Do
+Tom Hanks,"{'roles': 'Dr. Robert Langdon', 'type': 'acted_in'}",The Da Vinci Code
+Tom Hanks,"{'roles': 'Zachry,Dr. Henry Goose,Isaac Sachs,Dermot Hoggins', 'type': 'acted_in'}",Cloud Atlas
+Tom Hanks,"{'roles': 'Chuck Noland', 'type': 'acted_in'}",Cast Away
+Tom Hanks,"{'roles': 'Paul Edgecomb', 'type': 'acted_in'}",The Green Mile
+Tom Hanks,"{'roles': 'Sam Baldwin', 'type': 'acted_in'}",Sleepless in Seattle
+Tom Hanks,"{'roles': 'Hero Boy,Father,Conductor,Hobo,Scrooge,Santa Claus', 'type': 'acted_in'}",The Polar Express
+Tom Hanks,"{'roles': 'Rep. Charlie Wilson', 'type': 'acted_in'}",Charlie Wilson's War
+Tom Hanks,{'type': 'directed'},That Thing You Do
+Nora Ephron,{'type': 'directed'},You've Got Mail
+Nora Ephron,{'type': 'produced'},When Harry Met Sally
+Nora Ephron,{'type': 'directed'},Sleepless in Seattle
+Nora Ephron,{'type': 'wrote'},When Harry Met Sally
+Rita Wilson,"{'roles': 'Suzy', 'type': 'acted_in'}",Sleepless in Seattle
+Bill Pullman,"{'roles': 'Walter', 'type': 'acted_in'}",Sleepless in Seattle
+Victor Garber,"{'roles': 'Greg', 'type': 'acted_in'}",Sleepless in Seattle
+Rosie O'Donnell,"{'roles': 'Doris Murphy', 'type': 'acted_in'}",A League of Their Own
+Rosie O'Donnell,"{'roles': 'Becky', 'type': 'acted_in'}",Sleepless in Seattle
+John Patrick Stanley,{'type': 'directed'},Joe Versus the Volcano
+Nathan Lane,"{'roles': 'Baw', 'type': 'acted_in'}",Joe Versus the Volcano
+Nathan Lane,"{'roles': 'Albert Goldman', 'type': 'acted_in'}",The Birdcage
+Billy Crystal,"{'roles': 'Harry Burns', 'type': 'acted_in'}",When Harry Met Sally
+Carrie Fisher,"{'roles': 'Marie', 'type': 'acted_in'}",When Harry Met Sally
+Bruno Kirby,"{'roles': 'Jess', 'type': 'acted_in'}",When Harry Met Sally
+Liv Tyler,"{'roles': 'Faye Dolan', 'type': 'acted_in'}",That Thing You Do
+Brooke Langton,"{'roles': 'Annabelle Farrell', 'type': 'acted_in'}",The Replacements
+Gene Hackman,"{'roles': 'Little Bill Daggett', 'type': 'acted_in'}",Unforgiven
+Gene Hackman,"{'roles': 'Sen. Kevin Keeley', 'type': 'acted_in'}",The Birdcage
+Gene Hackman,"{'roles': 'Jimmy McGinty', 'type': 'acted_in'}",The Replacements
+Orlando Jones,"{'roles': 'Clifford Franklin', 'type': 'acted_in'}",The Replacements
+Howard Deutch,{'type': 'directed'},The Replacements
+Christian Bale,"{'roles': 'Dieter Dengler', 'type': 'acted_in'}",RescueDawn
+Zach Grenier,"{'roles': 'Squad Leader', 'type': 'acted_in'}",RescueDawn
+Zach Grenier,"{'roles': 'Eddie', 'type': 'acted_in'}",Twister
+Mike Nichols,{'type': 'directed'},The Birdcage
+Mike Nichols,{'type': 'directed'},Charlie Wilson's War
+Richard Harris,"{'roles': 'English Bob', 'type': 'acted_in'}",Unforgiven
+Clint Eastwood,"{'roles': 'Bill Munny', 'type': 'acted_in'}",Unforgiven
+Clint Eastwood,{'type': 'directed'},Unforgiven
+Takeshi Kitano,"{'roles': 'Takahashi', 'type': 'acted_in'}",Johnny Mnemonic
+Dina Meyer,"{'roles': 'Jane', 'type': 'acted_in'}",Johnny Mnemonic
+Ice-T,"{'roles': 'J-Bone', 'type': 'acted_in'}",Johnny Mnemonic
+Robert Longo,{'type': 'directed'},Johnny Mnemonic
+Halle Berry,"{'roles': 'Luisa Rey,Jocasta Ayrs,Ovid,Meronym', 'type': 'acted_in'}",Cloud Atlas
+Jim Broadbent,"{'roles': 'Vyvyan Ayrs,Captain Molyneux,Timothy Cavendish', 'type': 'acted_in'}",Cloud Atlas
+Tom Tykwer,{'type': 'directed'},Cloud Atlas
+David Mitchell,{'type': 'wrote'},Cloud Atlas
+Stefan Arndt,{'type': 'produced'},Cloud Atlas
+Ian McKellen,"{'roles': 'Sir Leight Teabing', 'type': 'acted_in'}",The Da Vinci Code
+Audrey Tautou,"{'roles': 'Sophie Neveu', 'type': 'acted_in'}",The Da Vinci Code
+Paul Bettany,"{'roles': 'Silas', 'type': 'acted_in'}",The Da Vinci Code
+Ron Howard,{'type': 'directed'},Apollo 13
+Ron Howard,{'type': 'directed'},Frost/Nixon
+Ron Howard,{'type': 'directed'},The Da Vinci Code
+Natalie Portman,"{'roles': 'Evey Hammond', 'type': 'acted_in'}",V for Vendetta
+Stephen Rea,"{'roles': 'Eric Finch', 'type': 'acted_in'}",V for Vendetta
+John Hurt,"{'roles': 'High Chancellor Adam Sutler', 'type': 'acted_in'}",V for Vendetta
+Ben Miles,"{'roles': 'Cass Jones', 'type': 'acted_in'}",Speed Racer
+Ben Miles,"{'roles': 'Ryan Maslow', 'type': 'acted_in'}",Ninja Assassin
+Ben Miles,"{'roles': 'Dascomb', 'type': 'acted_in'}",V for Vendetta
+Emile Hirsch,"{'roles': 'Speed Racer', 'type': 'acted_in'}",Speed Racer
+John Goodman,"{'roles': 'Pops', 'type': 'acted_in'}",Speed Racer
+Susan Sarandon,"{'roles': 'Mom', 'type': 'acted_in'}",Speed Racer
+Matthew Fox,"{'roles': 'Racer X', 'type': 'acted_in'}",Speed Racer
+Christina Ricci,"{'roles': 'Trixie', 'type': 'acted_in'}",Speed Racer
+Rain,"{'roles': 'Taejo Togokahn', 'type': 'acted_in'}",Speed Racer
+Rain,"{'roles': 'Raizo', 'type': 'acted_in'}",Ninja Assassin
+Naomie Harris,"{'roles': 'Mika Coretti', 'type': 'acted_in'}",Ninja Assassin
+Michael Clarke Duncan,"{'roles': 'John Coffey', 'type': 'acted_in'}",The Green Mile
+David Morse,"{'roles': 'Brutus Brutal Howell', 'type': 'acted_in'}",The Green Mile
+Sam Rockwell,"{'roles': 'Wild Bill Wharton', 'type': 'acted_in'}",The Green Mile
+Sam Rockwell,"{'roles': 'James Reston, Jr.', 'type': 'acted_in'}",Frost/Nixon
+Gary Sinise,"{'roles': 'Ken Mattingly', 'type': 'acted_in'}",Apollo 13
+Gary Sinise,"{'roles': 'Burt Hammersmith', 'type': 'acted_in'}",The Green Mile
+Patricia Clarkson,"{'roles': 'Melinda Moores', 'type': 'acted_in'}",The Green Mile
+Frank Darabont,{'type': 'directed'},The Green Mile
+Frank Langella,"{'roles': 'Richard Nixon', 'type': 'acted_in'}",Frost/Nixon
+Michael Sheen,"{'roles': 'David Frost', 'type': 'acted_in'}",Frost/Nixon
+Oliver Platt,"{'roles': 'Bob Zelnick', 'type': 'acted_in'}",Frost/Nixon
+Oliver Platt,"{'roles': 'Rupert Burns', 'type': 'acted_in'}",Bicentennial Man
+Danny DeVito,{'type': 'directed'},Hoffa
+Danny DeVito,"{'roles': 'Robert Bobby Ciaro', 'type': 'acted_in'}",Hoffa
+Danny DeVito,"{'roles': 'Martini', 'type': 'acted_in'}",One Flew Over the Cuckoo's Nest
+John C. Reilly,"{'roles': 'Peter Pete Connelly', 'type': 'acted_in'}",Hoffa
+Ed Harris,"{'roles': 'Gene Kranz', 'type': 'acted_in'}",Apollo 13
+Bill Paxton,"{'roles': 'Bill Harding', 'type': 'acted_in'}",Twister
+Bill Paxton,"{'roles': 'Bob Hinson', 'type': 'acted_in'}",A League of Their Own
+Bill Paxton,"{'roles': 'Fred Haise', 'type': 'acted_in'}",Apollo 13
+Philip Seymour Hoffman,"{'roles': 'Dustin Dusty Davis', 'type': 'acted_in'}",Twister
+Philip Seymour Hoffman,"{'roles': 'Gust Avrakotos', 'type': 'acted_in'}",Charlie Wilson's War
+Jan de Bont,{'type': 'directed'},Twister
+Robert Zemeckis,{'type': 'directed'},Cast Away
+Robert Zemeckis,{'type': 'directed'},The Polar Express
+Milos Forman,{'type': 'directed'},One Flew Over the Cuckoo's Nest
+Diane Keaton,"{'roles': 'Erica Barry', 'type': 'acted_in'}",Something's Gotta Give
+Nancy Meyers,{'type': 'wrote'},Something's Gotta Give
+Nancy Meyers,{'type': 'directed'},Something's Gotta Give
+Nancy Meyers,{'type': 'produced'},Something's Gotta Give
+Chris Columbus,{'type': 'directed'},Bicentennial Man
+Julia Roberts,"{'roles': 'Joanne Herring', 'type': 'acted_in'}",Charlie Wilson's War
+Madonna,"{'roles': 'Mae Mordabito', 'type': 'acted_in'}",A League of Their Own
+Geena Davis,"{'roles': 'Dottie Hinson', 'type': 'acted_in'}",A League of Their Own
+Lori Petty,"{'roles': 'Kit Keller', 'type': 'acted_in'}",A League of Their Own
+Penny Marshall,{'type': 'directed'},A League of Their Own
+Paul Blythe,{'type': 'follows'},Angela Scope
+Angela Scope,"{'summary': 'Pretty funny at times', 'rating': 62, 'type': 'reviewed'}",The Replacements
+Angela Scope,{'type': 'follows'},Jessica Thompson
+Jessica Thompson,"{'summary': 'A solid romp', 'rating': 68, 'type': 'reviewed'}",The Da Vinci Code
+Jessica Thompson,"{'summary': 'Silly, but fun', 'rating': 65, 'type': 'reviewed'}",The Replacements
+Jessica Thompson,"{'summary': 'You had me at Jerry', 'rating': 92, 'type': 'reviewed'}",Jerry Maguire
+Jessica Thompson,"{'summary': 'An amazing journey', 'rating': 95, 'type': 'reviewed'}",Cloud Atlas
+Jessica Thompson,"{'summary': ""Slapstick redeemed only by the Robin Williams and Gene Hackman's stellar performances"", 'rating': 45, 'type': 'reviewed'}",The Birdcage
+Jessica Thompson,"{'summary': 'Dark, but compelling', 'rating': 85, 'type': 'reviewed'}",Unforgiven
+James Thompson,"{'summary': 'The coolest football movie ever', 'rating': 100, 'type': 'reviewed'}",The Replacements
+James Thompson,"{'summary': 'Fun, but a little far fetched', 'rating': 65, 'type': 'reviewed'}",The Da Vinci Code
+James Thompson,{'type': 'follows'},Jessica Thompson
