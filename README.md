@@ -7,6 +7,10 @@ A graph database based on Python
 - [ ] 改善复杂查询的体验
 - [ ] 支持 CQL 语句
 
+install
+```sh
+pip install pygraphs
+```
 
 ## 使用文档
 
@@ -72,6 +76,22 @@ for edge in G.edges:
             print(src, ';', edge)
 ```
 
+### 改
+改节点属性，已有的属性被覆盖，如果没有属性则新建
+
+```python
+G.set_val(G.vertexes['Kitty'], {'sex': 'male', 'height': '1.8m'})
+print(G.vertexes['Kitty'].val)
+```
+
+改边的属性，已有的属性被覆盖，如果没有属性则新建
+
+```python
+edge_to_set = list(relation_son)[0]
+G.set_val(edge_to_set, {'relation': 'husband'})
+print(edge_to_set.val)
+```
+
 ### 删
 清除所有节点和边
 ```python
@@ -86,21 +106,6 @@ G.del_edges(edges_to_del=relation_son)
 G.del_vertex(vertex_to_del=G.vertexes['Tom'])
 ```
 
-### 改
-改节点属性，已有的属性被覆盖，没有的属性新建
-
-```python
-G.set_val(G.vertexes['Kitty'], {'sex': 'male', 'height': '1.8m'})
-print(G.vertexes['Kitty'].val)
-```
-
-改边的属性，已有的属性被覆盖，没有的属性新建
-
-```python
-edge_to_set = list(G.vertexes['Kitty'].dst)[0]
-self = G.set_val(edge_to_set, {'relation': 'husband'})
-print(edge_to_set.val)
-```
 
 
 ### 持久化

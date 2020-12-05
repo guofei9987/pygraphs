@@ -43,6 +43,16 @@ for edge in G.edges:
         if 'born' in src.val and src.val['born'] > '1975':
             print(src, ';', edge)
 
+# %%改
+# 改节点属性，已有的属性被覆盖，如果没有属性则新建
+G.set_val(G.vertexes['Kitty'], {'sex': 'male', 'height': '1.8m'})
+print(G.vertexes['Kitty'].val)
+
+# 改边的属性，已有的属性被覆盖，如果没有属性则新建
+edge_to_set = list(relation_son)[0]
+G.set_val(edge_to_set, {'relation': 'husband'})
+print(edge_to_set.val)
+
 # %%删
 # 清除所有节点和边
 # G.clear()
@@ -53,19 +63,8 @@ G.del_edges(edges_to_del=relation_son)
 # 删节点，del_vertexes 批量删，del_vertex 单个删
 G.del_vertex(vertex_to_del=G.vertexes['Tom'])
 
-# %%改
-# 改节点属性，已有的属性被覆盖，没有的属性新建
-G.set_val(G.vertexes['Kitty'], {'sex': 'male', 'height': '1.8m'})
-
-print(G.vertexes['Kitty'].val)
-
-# 改边的属性
-edge_to_set = list(G.vertexes['Kitty'].dst)[0]
-self = G.set_val(edge_to_set, {'relation': 'husband'})
-print(edge_to_set.val)
-
 # %% 持久化
-# 把图数据库存到本地
+# 从内存把图数据库存到文件
 pg.save_db(G, 'db_file.db')
-# 从本地读图数据库
+# 从文件读图数据库到内存
 G_new = pg.load_db('db_file.db')
