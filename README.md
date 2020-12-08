@@ -3,9 +3,7 @@ A graph database based on Python
 
 纯Python实现的图数据库
 
-- [x] 完备增删改查
-- [ ] 改善复杂查询的体验
-- [ ] 支持 CQL 语句
+
 
 install
 ```sh
@@ -97,25 +95,29 @@ print(edge_to_set.val)
 ```python
 G.clear()
 ```
-
+删边，`G.del_edges` 批量删，`G.del_edge` 单个删
 ```python
-# 删边，G.del_edges 批量删，G.del_edge 单个删
 G.del_edges(edges_to_del=relation_son)
-
-# 删节点，G.del_vertexes 批量删，G.del_vertex 单个删
+```
+删节点，`G.del_vertexes` 批量删，`G.del_vertex` 单个删
+```python
 G.del_vertex(vertex_to_del=G.vertexes['Tom'])
 ```
 
-
-
 ### 持久化
-把图数据库存到本地
+从内存把图数据库存到文件
 ```python
 pg.save_db(G, 'db_file.db')
 ```
 
-从本地读图数据库
+从文件读图数据库到内存
 
 ```python
 G_new = pg.load_db('db_file.db')
 ```
+
+## 后续更新计划
+
+- [x] 完备增删改查
+- [ ] 改善复杂查询的体验
+- [ ] 支持 CQL 语句
