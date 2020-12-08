@@ -35,6 +35,11 @@ print(young_people)
 # 按特定过滤条件查询边
 relation_son = G.query(condition_edge=lambda x: 'relation' in x and x['relation'] == 'son')
 print(relation_son)
+
+# 返回所有节点
+G.vertexes
+# 返回所有边
+G.edges
 # %%
 # 复杂查询
 for edge in G.edges:
