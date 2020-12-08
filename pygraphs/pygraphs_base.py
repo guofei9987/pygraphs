@@ -1,6 +1,8 @@
+# -*- coding: utf-8 -*-
+# @Time    : 2020/12/05
+# @Author  : github.com/guofei9987
 import ast
 import csv
-
 
 
 class Vertex(object):
@@ -62,7 +64,7 @@ class Graph(object):
             self.del_edge(edge_to_del)
 
     def del_vertex(self, vertex_to_del):
-        assert not (vertex_to_del.dst or vertex_to_del.src), 'To delete node, you must first delete its relationships.'
+        assert not (vertex_to_del.dst or vertex_to_del.src), 'To delete node, you must first delete its edges.'
         self.vertexes.pop(vertex_to_del.primary_key)
 
     def del_vertexes(self, vertexes_to_del):
@@ -97,4 +99,3 @@ class Graph(object):
                 if condition_edge(edge.val):
                     res.add(edge)
             return res
-
