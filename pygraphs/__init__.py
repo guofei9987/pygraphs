@@ -1,7 +1,7 @@
-from .pygraphs_base import *
+from .pygraphs_base import Graph, Vertex, Edge
 from .tools import load_db, save_db
 
-__version__ = '0.0.1'
+__version__ = '0.0.2'
 
 
 def start():
