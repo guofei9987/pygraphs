@@ -51,43 +51,40 @@ print(G.edges)
 
 ### 查
 ```python
-# 按照主键来查询
-print(G.vertexes['Frank Darabont'])
+# 1.return: '(src)' 返回节点列表，'[edge]' 返回 边的列表
+G.match('(src)').where("src.born in ['1956', '1973'] and src.type == 'person'").returns('(src)')
+G.match('[edge]').where("edge.type == 'acted_in' and edge.roles is not Null").returns('[edge]')
 
-# 按特定过滤条件查询节点
-young_people = G.query(condition_vertex=lambda x: ('born' in x) and x['born'] > '1975')
-print(young_people)
+# 2. return: 'sub graph' 返回子图对象（Graph 对象）
+G.match('(src)-[edge]->(dst)').where("src.type == 'person' and edge.type == 'acted_in' and dst.released > '2000'"). \
+    returns('sub graph')
 
-# 按特定过滤条件查询边
-relation_son = G.query(condition_edge=lambda x: 'relation' in x and x['relation'] == 'son')
-print(relation_son)
+# 3. return: 指定属性，返回结构化数据（如果节点的某个属性不存在，对应单元格值为 Null）
+G.match('(src)').where("src.born in ['1956', '1973'] and src.type == 'person'").returns('src.primary_key,src.born')
+G.match('[edge]').where("edge.type == 'directed'").returns('edge.type,edge.roles')
+G.match('(src)-[edge]->(dst)').where("src.type == 'person' and edge.type == 'acted_in' and dst.released > '2000'"). \
+    returns('src.primary_key,src.born,edge.roles,dst.type,dst.released')
 
-
-```
-
-复杂查询
-```python
-for edge in G.edges:
-    if 'type' in edge.val and edge.val['type'] == 'acted_in':
-        src = edge.src
-        if 'born' in src.val and src.val['born'] > '1975':
-            print(src, ';', edge)
+# 返回所有节点
+G.vertexes
+# 返回所有边
+G.edges
 ```
 
 ### 改
-改节点属性，已有的属性被覆盖，如果没有属性则新建
-
+改节点属性，mode='update'覆盖已有属性并新增没有的属性，mode='cover'抹除全部旧属性并新增
 ```python
-G.set_val(G.vertexes['Kitty'], {'sex': 'male', 'height': '1.8m'})
-print(G.vertexes['Kitty'].val)
+G.match('(src)').where("src.born in ['1956', '1973'] and src.type == 'person'"). \
+    set({'status': 'old man'}, mode='update')
+
+# 查看是否已经改好：
+G.match('(src)').where("src.born in ['1956', '1973'] and src.type == 'person'").returns('src.born,src.type,src.status')
 ```
 
-改边的属性，已有的属性被覆盖，如果没有属性则新建
+改边的属性，一样
 
 ```python
-edge_to_set = list(relation_son)[0]
-G.set_val(edge_to_set, {'relation': 'husband'})
-print(edge_to_set.val)
+G.match('[edge]').where("edge.type=='directed'").set({'partner': 'director'})
 ```
 
 ### 删
@@ -97,11 +94,13 @@ G.clear()
 ```
 删边，`G.del_edges` 批量删，`G.del_edge` 单个删
 ```python
-G.del_edges(edges_to_del=relation_son)
+edges_to_del = G.match('[edge]').where("edge.relation=='son'").returns('[edge]')
+G.del_edges(edges_to_del=edges_to_del)
 ```
 删节点，`G.del_vertexes` 批量删，`G.del_vertex` 单个删
 ```python
-G.del_vertex(vertex_to_del=G.vertexes['Tom'])
+vertexes_to_del = G.match('(src)').where("src.primary_key=='Tom'").returns('(src)')
+G.del_vertexes(vertexes_to_del=vertexes_to_del)
 ```
 
 ### 持久化
@@ -116,8 +115,3 @@ pg.save_db(G, 'db_file.db')
 G_new = pg.load_db('db_file.db')
 ```
 
-## 后续更新计划
-
-- [x] 完备增删改查
-- [ ] 改善复杂查询的体验
-- [ ] 支持 CQL 语句
