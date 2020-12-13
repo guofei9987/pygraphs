@@ -52,6 +52,9 @@ G.match('(src)').where("src.born in ['1956', '1973'] and src.type == 'person'").
 # 查看是否已经改好：
 G.match('(src)').where("src.born in ['1956', '1973'] and src.type == 'person'").returns('src.born,src.type,src.status')
 
+# 改边的属性，一样
+G.match('[edge]').where("edge.type=='directed'").set({'partner': 'director'})
+
 # %%删
 # 清除所有节点和边
 # G.clear()
@@ -69,11 +72,3 @@ G.del_vertexes(vertexes_to_del=vertexes_to_del)
 pg.save_db(G, 'db_file.db')
 # 从文件读图数据库到内存
 G_new = pg.load_db('db_file.db')
-
-
-#%%
-
-
-#%%
-a="edge.type == 'acted_in' and edge.roles is not Null"
-
