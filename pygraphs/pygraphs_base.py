@@ -129,7 +129,7 @@ class MatchObject(object):
             return self.where_res
         elif expr == '[edge]':
             return self.where_res
-        elif expr == 'sub graph':
+        elif expr == 'sub graph' or expr == 'sub-graph':
             assert self.match_type == 'combined', '目前只有完整查询可以返回子图对象'
             sub_G = Graph()
             sub_G.edges = {edge for _, edge, _ in self.where_res}
