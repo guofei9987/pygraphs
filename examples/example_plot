@@ -1,0 +1,37 @@
+import pygraphs as pg
+
+G = pg.Graph()
+
+# 从csv读取节点并加入图数据库
+G.add_vertexes_from_file(filename='Vertexes.csv')
+# 从csv读取关系并加入图数据库
+G.add_edges_from_file(filename='Edges.csv')
+
+sub_G = G.match('(src)-[edge]->(dst)'). \
+    where('edge.type=="acted_in" and dst.primary_key=="The Matrix"'). \
+    returns('sub graph')
+
+category = 'type'  # 指定用哪个属性作为画节点时的分类
+nodes_for_echarts, edge_for_echarts, graph_category = pg.tools.to_echarts(graph=sub_G, category='type')
+# or plot the total graph:
+# nodes_for_echarts, edge_for_echarts, graph_category = pg.tools.to_echarts(graph=G, category='type')
+
+# %% 用 echarts 画图
+
+from pyecharts import options as opts
+from pyecharts import charts
+
+filename = '画图的输出.html'
+
+graph = charts.Graph(init_opts=opts.InitOpts(
+    width='1500px', height='1000px',
+    page_title='页面标题',
+))
+graph.add("", nodes_for_echarts, edge_for_echarts, graph_category, repulsion=8000, is_draggable=True
+          , edge_symbol=['circle', 'arrow'],  # 箭头
+          edge_symbol_size=[4, 10],  # 箭头大小
+          label_opts=opts.LabelOpts(is_show=True)  # 是否显示节点名
+          )
+graph.set_global_opts(title_opts=opts.TitleOpts(title="https://github.com/guofei9987/pygraphs"))
+graph.render(filename)
+print('网络图已经保存到 {}'.format(filename))
